@@ -108,7 +108,6 @@ LeetchiEditor.defaultConfig = {
 				{ from: ':-s', to: '🙁' },
 				{ from: '=s', to: '🙁' },
 
-				{ from: ':/', to: '🙁' },
 				{ from: ':-/', to: '🙁' },
 				{ from: '=/', to: '🙁' },
 
