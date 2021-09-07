@@ -25,7 +25,6 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
-import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 
 export default class LeetchiEditor extends ClassicEditorBase {}
 
@@ -50,7 +49,6 @@ LeetchiEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	TextTransformation,
-	Underline,
 ];
 
 // Editor configuration.
@@ -61,7 +59,6 @@ LeetchiEditor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
-			'underline',
 			'alignment',
 			'bulletedList',
 			'link',
