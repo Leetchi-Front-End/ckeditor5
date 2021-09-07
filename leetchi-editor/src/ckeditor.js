@@ -157,6 +157,7 @@ LeetchiEditor.defaultConfig = {
 		{ name: 'sunglasses', text: '😎' },
 		{ name: 'kissing heart', text: '😘' },
 	],
+	mediaEmbed: { previewsInData: true },
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'fr',
 };
